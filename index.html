@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <title>SpackleCare.com</title>
+    <script src="script.js"></script>
+     </head>
+<body class="bg-gray-100">
+
+  <!-- NAVBAR -->
+  <nav class="bg-red-50 shadow-md p-1">
+
+    <!-- Top Section -->
+    <div class="flex justify-between items-center">
+      
+     <div>
+  <img src="images/logo.jpg" alt="Logo" class="h-12 w-12 mx-18 rounded-full object-cover">
+</div>
+
+      <!-- Auth Buttons (Right) -->
+      <div class="space-x-4" >
+        <button id="loginBtn" class="text-gray-700 hover:text-pink-600 font-medium transition duration-300">
+  Login
+</button>
+        <button id="signupBtn" class="mr-18 text-gray-700 hover:text-pink-600 font-medium transition duration-300">
+          Sign Up
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Nav Links (Centered Below) -->
+    <div class="flex justify-center mt-1">
+      <ul class="flex space-x-10 text-pink-700 font-medium text-lg">
+        <li><a href="index.html" class="hover:text-pink-600 transition duration-300">Home</a></li>
+        <li><a href="skincare.html" class="hover:text-pink-600 transition duration-300">SkinCare</a></li>
+        <li><a href="consultation.html" class="hover:text-pink-600 transition duration-300">Consultation</a></li>
+      </ul>
+    </div>
+
+  </nav>
+<section class="my-15">
+
+  <div class="w-2/4 mx-auto text-center">
+
+    <!-- Text Content -->
+    <h2 class="text-3xl font-bold mb-2">
+      Personalized Routine
+    </h2>
+
+    <p class="text-gray-600 mb-6">
+      An effective routine designed for your skin + lifestyle + environment
+    </p>
+
+    <!-- Image -->
+    <img src="images/img23.jpg" 
+         alt="Skincare Routine"
+         class="w-full h-200 object-cover rounded-2xl shadow-lg">
+
+  </div>
+
+</section>
+</body>
+</html> 
